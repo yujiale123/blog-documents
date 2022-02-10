@@ -20,8 +20,8 @@ import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
  * ②注：windowLB 和 windowRB：1.展示区块最大宽高200px*400px。2.请给自定义元素定一个不超过200px*400px的宽高。3.在屏幕宽度小于960px时无论如何都不会显示。
  */
 const htmlModule: VdoingThemeConfig['htmlModules'] = {
-  homeSidebarB:
-    `<div style="padding: 0.95rem">
+  pageB:
+    `<div style="padding: 0.15rem">
     <p style="
       color: var(--textColor);
       opacity: 0.9;
@@ -29,7 +29,7 @@ const htmlModule: VdoingThemeConfig['htmlModules'] = {
       font-weight: bold;
       margin: 0 0 8px 0;
     ">公众号</p>
-    <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/扫码_搜索联合传播样式-标准色版.1wp8gd1mhjhc.jpg"  style="width:100%;" />
+    <img src="https://static01.imgkr.com/temp/7b61c9ddfeb24001a25ed14df28a9948.jpg"  style="width:50%;height:50%;" />
     <p>
     有趣研究社，这里有<a href="https://game.xugaoyi.com" arget="_blank" > FC在线模拟器(小霸王) <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>，还有更多好玩的等着你去探索~
     </br></br>
@@ -99,27 +99,19 @@ const htmlModule: VdoingThemeConfig['htmlModules'] = {
   //         (adsbygoogle = window.adsbygoogle || []).push({});
   //     </script>`,
   // windowRB:
-  //   `<!-- 固定160*160px -->
-  //     <ins class="adsbygoogle"
-  //         style="display:inline-block;max-width:160px;max-height:160px"
-  //         data-ad-client="ca-pub-7828333725993554"
-  //         data-ad-slot="8377369658"></ins>
-  //     <script>
-  //         (adsbygoogle = window.adsbygoogle || []).push({});
-  //     </script>
-  //     `,
+    // `<!-- 固定160*160px -->
+    //   <ins class="adsbygoogle"
+    //       style="display:inline-block;max-width:160px;max-height:160px"
+    //       data-ad-client="ca-pub-7828333725993554"
+    //       data-ad-slot="8377369658"></ins>
+    //   <script>
+    //       (adsbygoogle = window.adsbygoogle || []).push({});
+    //   </script>
+    //   `,
 }
 
 
-// const htmlModule = {
-//   homeSidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   sidebarT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   sidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   pageT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   pageB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   windowLB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   windowRB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-// }
+
 
 
 export default htmlModule
