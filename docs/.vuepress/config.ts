@@ -37,7 +37,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     editLinks: true, // 启用编辑
     editLinkText: '编辑',
 
-    //*** 以下是Vdoing主题相关配置，文档：https://doc.xugaoyi.com/pages/a20ce8/ ***//
+    //*** 以下是Vdoing主题相关配置，文档：https://doc.yujiale123.com/pages/a20ce8/ ***//
 
     category: false, // 是否打开分类功能，默认true
     tag: false, // 是否打开标签功能，默认true
@@ -45,9 +45,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
     // bodyBgImg: [
-    //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
-    //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
-    //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
+    //   'https://cdn.jsdelivr.net/gh/yujiale123/image_store/blog/20200507175828.jpeg',
+    //   'https://cdn.jsdelivr.net/gh/yujiale123/image_store/blog/20200507175845.jpeg',
+    //   'https://cdn.jsdelivr.net/gh/yujiale123/image_store/blog/20200507175846.jpeg'
     // ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时每隔15秒换一张。
     // bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0.1~ 1.0, 默认0.5
     // titleBadge: false, // 文章标题前的图标是否显示，默认true
@@ -76,7 +76,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     // blogger: {
-    //   avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
+    //   avatar: 'https://cdn.jsdelivr.net/gh/yujiale123/image_store/blog/20200103123203.jpg',
     //   name: 'Evan Xu',
     //   slogan: '前端界的小学生',
     // },
@@ -93,7 +93,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     //     {
     //       iconClass: 'icon-github',
     //       title: 'GitHub',
-    //       link: 'https://github.com/xugaoyi',
+    //       link: 'https://github.com/yujiale123',
     //     },
     //     {
     //       iconClass: 'icon-erji',
@@ -177,7 +177,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     //     },
     //     {
     //       title: '通过百度搜索本站的',
-    //       frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
+    //       frontUrl: 'https://www.baidu.com/s?wd=site%3Ayujiale123.com%20',
     //     },
     //   ],
     // },
@@ -217,8 +217,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     //     clientID: 'a6e1355287947096b88b',
     //     clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
     //     repo: 'blog-gitalk-comment', // GitHub 仓库
-    //     owner: 'xugaoyi', // GitHub仓库所有者
-    //     admin: ['xugaoyi'], // 对仓库有写权限的人
+    //     owner: 'yujiale123', // GitHub仓库所有者
+    //     admin: ['yujiale123'], // 对仓库有写权限的人
     //     // distractionFreeMode: true,
     //     pagerDirection: 'last', // 'first'正序 | 'last'倒序
     //     id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
