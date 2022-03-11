@@ -40,7 +40,7 @@
 git clone https://github.com/yujiale123/vuepress-theme-vdoing.git
 
 # enter the project directory
-cd vuepress-theme-vdoing
+cd vuepress-blog
 
 # install dependency
 npm install # or yarn install

@@ -1,6 +1,7 @@
 import { resolve } from 'path'
 import { defineConfig4CustomTheme } from 'vuepress/config'
 import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
+// @ts-ignore
 import dayjs from 'dayjs'
 import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
@@ -22,7 +23,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       description: '后端技术和web前端技术博客,专注前后端学习与总结。争取当全栈工程师。 ',
     }
   },
-  
+
 
   // 主题配置
   themeConfig: {
@@ -30,7 +31,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     nav: navConf,
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'yujiale123/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
+    repo: 'yujiale123/vuepress-blogblog', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
